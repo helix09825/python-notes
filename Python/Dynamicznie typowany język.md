@@ -1,4 +1,5 @@
-# Dynamicznie typowany język
+
+<!--SR:!2025-11-27,1,226!2000-01-01,1,250--># Dynamicznie typowany język
 ---
 aliases: ["dynamic typing", "dynamiczne typowanie", "dynamically typed language"]
 
@@ -66,19 +67,6 @@ Możesz mieć pudełko na kredki w tedy typ jest równy kredce ale możesz w ka�
 
 ---
 
-### 🧱 Cloze deletion (tekst z lukami)
-
-**D t j** t j p w k **t z j u p (r)** a n n e k l p u O t ż t s z m z t w t d p w z o p w.
-??
-**Dynamicznie typowany język** to język programowania, w którym **typ zmiennej jest ustalany podczas działania programu (runtime)**, a nie na etapie kompilacji lub przed uruchomieniem. Oznacza to, że ta sama zmienna może zmieniać typ w trakcie działania programu w zależności od przypisanej wartości.
-
-
-
-
-
-
----
-
 ### 🗃 Keyword Connections (powiązania)
 
 - [[typowanie]]
@@ -88,7 +76,14 @@ Możesz mieć pudełko na kredki w tedy typ jest równy kredce ale możesz w ka�
 - [[duck typing]]
 - [[TypeError]]
 - [[system typów]]
-
+- [[str]]
+- [[int]]
+- [[bolean]]
+- [[list]]
+- [[dict]]
+- [[set]]
+- [[None]]
+- [[float]]
 ---
 
 ### 🖼 Rysunek / schemat / diagram ASCII
@@ -142,10 +137,12 @@ W dynamicznym typowaniu zmienia się **wiązanie etykieta → obiekt**, a nie ty
 
 ## 🗂 Fiszki (SRS) #flashcards
 
-Co to jest Dynamicznie typowany język?::Język, w którym **typ należy do wartości, a nie do zmiennej**, i jest ustalany **w czasie działania programu (runtime)**.
-<!--SR:!2025-11-27,1,230-->
+Co to jest Dynamicznie typowany język?
+??
+Język, w którym **typ należy do wartości, a nie do zmiennej**, i jest ustalany **w czasie działania programu (runtime)**.
 
 
-Jak działa Dynamicznie typowany język?::Przypisujesz wartość → język automatycznie określa jej typ → zmienna wskazuje na tę wartość.
-<!--SR:!2025-11-27,1,230-->
+Jak działa Dynamicznie typowany język?
+??
+Przypisujesz wartość → język automatycznie określa jej typ → zmienna wskazuje na tę wartość.
 Zmienna może później wskazać na wartość innego typu.

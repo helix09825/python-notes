@@ -11,6 +11,16 @@
             "id": "9cd9a4520217e943",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "1a644410c3b271ee",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Python/Dynamicznie typowany język.md",
@@ -21,7 +31,8 @@
               "title": "Dynamicznie typowany język"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,13 +217,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf23415cf560a592",
+  "active": "1a644410c3b271ee",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Python/Dynamicznie typowany język.md",
-    "Untitled.base",
     "2025-11-26.md",
     "Untitled 1.canvas",
+    "Python/Dynamicznie typowany język.md",
+    "Untitled.canvas",
+    "Untitled.base",
     "Pasted image 20251126085926.png",
     "Python",
     "słabe typowanie.md",
