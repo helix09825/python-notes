@@ -13,7 +13,7 @@ graph: false
 
 ## 🧪 Przykład
 
-```{{language}}
+```python
 <!-- Przykład kodu lub sytuacji -->
 ```
 
@@ -39,13 +39,6 @@ graph: false
 ### 🔄 Tłumaczenie jako analogia
 
 **Analogia:**
-
----
-
-### 🧱 Cloze deletion (tekst z lukami)
-
-Przykład:  
-{{c1::Dynamic typing}} oznacza, że typ ustalany jest w {{c2::runtime}}.
 
 ---
 
@@ -87,14 +80,9 @@ Przykład:
 
 ## 🗂 Fiszki (SRS)
 
-Co to jest {{title}}?::
-
-Jak działa {{title}}?::
-
-Podaj przykład użycia {{title}}.::
-
-{{c1::Kluczowa cecha 1}}  
-{{c2::Kluczowa cecha 2}}
+Pytanie 
+??
+Odpowiedź
 
 ---
 

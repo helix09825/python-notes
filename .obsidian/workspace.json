@@ -23,16 +23,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Dynamicznie typowany język.md",
+                "file": "templates/theory-note-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamicznie typowany język"
+              "title": "theory-note-template"
+            }
+          },
+          {
+            "id": "0f776a3c95f5977e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Wzorzec projektowy Singleton w Pythonie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wzorzec projektowy Singleton w Pythonie"
+            }
+          },
+          {
+            "id": "1cb4b0c8b69a56a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "niemutowalne.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "niemutowalne"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,8 +113,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,17 +244,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a644410c3b271ee",
+  "active": "f61e2c12f9427629",
   "lastOpenFiles": [
+    "templates/theory-note-template.md",
+    "id.md",
+    "Python/Wzorzec projektowy Singleton w Pythonie.md",
+    "Python/Typy mutowalne i niemutowalne.md",
+    "Pasted image 20251126222310.png",
+    "niemutowalne.md",
+    "dict.md",
+    "mutowalne.md",
+    "Python/Dynamicznie typowany język.md",
+    "keyword-1.md",
     "2025-11-26.md",
     "Untitled 1.canvas",
-    "Python/Dynamicznie typowany język.md",
     "Untitled.canvas",
     "Untitled.base",
     "Pasted image 20251126085926.png",
     "Python",
     "słabe typowanie.md",
-    "templates/theory-note-template.md",
     "Test Flashcard.md",
     "templates"
   ]
