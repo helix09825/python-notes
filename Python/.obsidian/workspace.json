@@ -1,52 +1,20 @@
 {
   "main": {
-    "id": "73b8328b16f68b6e",
+    "id": "993499e39f0f5911",
     "type": "split",
     "children": [
       {
-        "id": "af435f8237633234",
+        "id": "9893824c24baffb3",
         "type": "tabs",
         "children": [
           {
-            "id": "92b5f00690311934",
+            "id": "b9108176e98fa90e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Final.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Final"
-            }
-          },
-          {
-            "id": "c92120ccb525ac17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Literal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Literal"
-            }
-          },
-          {
-            "id": "b1e8e766e0c28f43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lexical scope.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lexical scope"
+              "title": "New tab"
             }
           }
         ]
@@ -55,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "da10054309221d84",
+    "id": "e85b5a4a93457ea6",
     "type": "split",
     "children": [
       {
-        "id": "6c194e64d9aa3c23",
+        "id": "a1ebb11264af2699",
         "type": "tabs",
         "children": [
           {
-            "id": "87077a9b3babd4d6",
+            "id": "f48b958c3b883b3b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -76,7 +44,7 @@
             }
           },
           {
-            "id": "5f53a18f6d17100b",
+            "id": "a74f7e9ea32272b5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -93,7 +61,7 @@
             }
           },
           {
-            "id": "7a4b2e71ca59f363",
+            "id": "57f7f5cd75d0b0ff",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -109,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "70dcf45e755d11e8",
+    "id": "0612ffe9d9a607ba",
     "type": "split",
     "children": [
       {
-        "id": "70dc6aa20b3ed277",
+        "id": "ad5dd2a2e29056d0",
         "type": "tabs",
         "children": [
           {
-            "id": "31295387e9371903",
+            "id": "5377d152be91e306",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "249ffc11f4d6bf29",
+            "id": "98ab6bc0ed9dca52",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "a885fe59a387aef8",
+            "id": "d33d06369dbd27b1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -165,7 +131,7 @@
             }
           },
           {
-            "id": "ab8681e6cbe24d9c",
+            "id": "a98299fcd5894498",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -179,46 +145,25 @@
             }
           },
           {
-            "id": "905de928beffd3ee",
+            "id": "044020a3dc48bf5e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
-            }
-          },
-          {
-            "id": "f61e2c12f9427629",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
-            "id": "cf23415cf560a592",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,52 +173,9 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "f61e2c12f9427629",
-  "lastOpenFiles": [
-    "dict.md",
-    "Callable.md",
-    "Any.md",
-    "Literal.md",
-    "Never.md",
-    "Annotated.md",
-    "TypeVar.md",
-    "Protocol.md",
-    "Final.md",
-    "TypedDict.md",
-    "TypeAlias.md",
-    "Optional.md",
-    "Union.md",
-    "Python/Zaawansowane adnotacje typów.md",
-    "templates/theory-note-template.md",
-    "Python/Clousure.md",
-    "Pasted image 20251201220606.png",
-    "Python/Zmienne globalne, lokalne i nielokalne.md",
-    "Lexical scope.md",
-    "Pasted image 20251201113941.png",
-    "Pasted image 20251130210747.png",
-    "Python/Funkcja jako argument.md",
-    "Pasted image 20251130205245.png",
-    "lambda.md",
-    "starred target.md",
-    "Pasted image 20251130200211.png",
-    "Python/Pakowanie.md",
-    "Python/Rozpakowywanie.md",
-    "Pasted image 20251130180211.png",
-    "keyword-1.md",
-    "Python/Dynamicznie typowany język.md",
-    "Pasted image 20251128224408.png",
-    "Python/List Comperhension.md",
-    "Pasted image 20251126222310.png",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "Untitled.base",
-    "Pasted image 20251126085926.png",
-    "Python",
-    "templates"
-  ]
+  "active": "b9108176e98fa90e",
+  "lastOpenFiles": []
 }

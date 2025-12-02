@@ -189,7 +189,7 @@ Po każdej próbie zmiany powstaje _nowy obiekt_ — a więc obiekt dostaje nowe
 Jak sprawdzić, czy obiekt jest mutowalny w praktyce?
 ?
 Zmienić jego wartość i porównać `id()` przed i po.
-<!--SR:!2025-12-01,4,275-->
+<!--SR:!2025-12-16,15,295-->
 
 ---
 
