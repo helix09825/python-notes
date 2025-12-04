@@ -109,7 +109,9 @@ To jest dokładnie to, co robi dekorator w Pythonie.
 - [[syntactic sugar]]
     
 - [[design patterns]]
-    
+	 
+- [[functools]]
+
 
 ---
 

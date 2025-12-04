@@ -22,6 +22,16 @@
             }
           },
           {
+            "id": "96b1edb545f544fc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "c92120ccb525ac17",
             "type": "leaf",
             "state": {
@@ -49,7 +59,8 @@
               "title": "Lexical scope"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,11 +244,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92b5f00690311934",
+  "active": "96b1edb545f544fc",
   "lastOpenFiles": [
+    "Python/Funkcja jako argument.md",
+    "functools.md",
+    "Python/Dekoratory.md",
     "Pasted image 20251202193057.png",
     "Annotated.md",
-    "Python/Dekoratory.md",
     "Python/Glossary",
     "lambda.md",
     "keyword-1.md",
@@ -263,7 +276,6 @@
     "Lexical scope.md",
     "Pasted image 20251201113941.png",
     "Pasted image 20251130210747.png",
-    "Python/Funkcja jako argument.md",
     "Pasted image 20251130205245.png",
     "starred target.md",
     "Pasted image 20251130200211.png",

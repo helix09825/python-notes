@@ -61,11 +61,9 @@ say_hello("Kamil")
 ### 🗃 Keyword Connections (powiązania)
 
 - [[lambda]]
-    
-- [[wywołanie zwrotne]]
-    
+- [[wywołanie zwrotne]]   
 - [[Callable]]
-    
+ - [[First-Class Object]]
 
 ---
 
