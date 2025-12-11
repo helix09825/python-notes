@@ -153,7 +153,7 @@ Zmienna utworzona wewnątrz funkcji, dostępna tylko w tej funkcji i tworzona na
 Co to jest zmienna nielokalna (nonlocal)?
 ?
 Zmienna należąca do funkcji zewnętrznej, którą funkcja wewnętrzna może modyfikować dzięki słowu kluczowemu nonlocal.
-<!--SR:!2025-12-08,3,250-->
+<!--SR:!2025-12-17,9,250-->
 
 Czy można odczytać zmienną globalną bez użycia global?
 ?
@@ -198,17 +198,17 @@ Nie, scope nigdy nie działa „w dół” ani „w bok” — tylko w górę.
 Od czego zależy dostępność zmiennych (lexical scope)?
 ?
 Dostępność zależy od miejsca definicji funkcji, a nie od miejsca jej wywołania.
-<!--SR:!2025-12-08,3,250-->
+<!--SR:!2025-12-15,5,230-->
 
 Jaka jest kolejność szukania zmiennych w Pythonie (LEGB)?
 ?
 Local → Enclosing (nonlocal) → Global → Builtins.
-<!--SR:!2025-12-08,3,250-->
+<!--SR:!2025-12-19,11,270-->
 
 Co się stanie przy próbie użycia zmiennej z wyższego scope bez deklaracji global lub nonlocal, jeśli próbujemy ją modyfikować?
 ?
 Python potraktuje ją jako zmienną lokalną i zgłosi UnboundLocalError.
-<!--SR:!2025-12-08,3,250-->
+<!--SR:!2025-12-16,8,250-->
 
 ---
 

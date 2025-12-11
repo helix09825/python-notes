@@ -1,10 +1,16 @@
+---
+sr-due: 2025-12-22
+sr-interval: 11
+sr-ease: 274
+---
+
 aliases: []  
 tags: [theory, cs, programming]  
 sr-due: true
 graph: false
 
 ---
-
+#review
 ## 🧠 Co to jest?
 
 **Klasa** to _szablon_ (definicja) obiektu.  
@@ -291,7 +297,7 @@ class Mage(Character):
 
 ## ✨ Metoda Feynmana (1–2 zdania)
 
-Klasą nazywamy definicję czegoś co chcemy opisać, dana rzecz którą opicujemy będzie instancją
+Klasą nazywamy definicję czegoś co chcemy opisać, dana rzecz którą opisujemy będzie instancją
 
 ---
 
@@ -337,92 +343,92 @@ Zmienisz wartość w jednej instancji → zobaczą ją wszystkie pozostałe.
 Co robi metoda `__new__`?
 ?
 Tworzy nową instancję w pamięci i zwraca obiekt; wywoływana przed `__init__`.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-25,16,290-->
 
 Co robi metoda `__init__`?
 ?
 Inicjalizuje obiekt już utworzony przez `__new__`, ustawia atrybuty instancji.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-24,15,290-->
 
 Jaka jest różnica między atrybutem klasowym a instancji?
 ?
 Atrybut klasowy jest wspólny dla wszystkich instancji; atrybut instancji należy tylko do konkretnego obiektu.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-11,2,250-->
 
 Gdzie tworzymy atrybuty instancji?
 ?
 W metodzie `__init__` poprzez `self.nazwa`.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-20,11,270-->
 
 Jak odwołać się do atrybutu klasowego wewnątrz instancji?
 ?
 Przez `type(self).nazwa` lub nazwę klasy.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-25,16,290-->
 
 Dlaczego mutowalne atrybuty klasowe są niebezpieczne?
 ?
 Bo wszystkie instancje współdzielą tę samą listę/dict/set i modyfikacje wpływają na wszystkie obiekty.
-<!--SR:!2025-12-08,2,230-->
+<!--SR:!2025-12-15,7,250-->
 
 Do czego służy dekorator `@property`?
 ?
 Tworzy getter, który pozwala odczytywać wartość jak zwykły atrybut, ale z logiką w tle.
-<!--SR:!2025-12-08,2,230-->
+<!--SR:!2025-12-15,7,250-->
 
 Do czego służy `@nazwa.setter`?
 ?
 Definiuje setter — kontroluje zmianę wartości właściwości zarządzanej przez `@property`.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-23,14,290-->
 
 Czy `self` jest słowem kluczowym?
 ?
 Nie, to tylko konwencja nazewnicza — można użyć dowolnej nazwy.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-24,15,290-->
 
 Co reprezentuje `self` w metodzie?
 ?
 Referencję do konkretnej instancji, na której metoda jest wywoływana.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-24,15,290-->
 
 Czy metody statyczne wymagają `self`?
 ?
 Nie — metoda oznaczona `@staticmethod` nie przyjmuje `self` ani `cls`.
-<!--SR:!2025-12-08,3,250-->
+<!--SR:!2025-12-18,10,270-->
 
 Czym różni się `@classmethod` od `@staticmethod`?
 ?
 `@classmethod` otrzymuje jako pierwszy argument `cls`, a `@staticmethod` nie dostaje ani `self`, ani `cls`.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-24,15,290-->
 
 Czy klasa może być wywoływalna jak funkcja?
 ?
 Tak, jeśli posiada metodę `__call__`.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-23,14,290-->
 
 Czy obiekt z `__call__` staje się funkcją?
 ?
 Nie — tylko zachowuje się jak funkcja, ale nadal jest instancją klasy.
-<!--SR:!2025-12-08,3,250-->
+<!--SR:!2025-12-18,10,270-->
 
 Co robi `__repr__`?
 ?
 Zwraca techniczny, jednoznaczny opis obiektu — używany do debugowania.
-<!--SR:!2025-12-07,1,210-->
+<!--SR:!2025-12-14,4,210-->
 
 Co robi `__str__`?
 ?
 Zwraca czytelną, przyjazną dla użytkownika reprezentację obiektu.
-<!--SR:!2025-12-09,4,270-->
+<!--SR:!2025-12-20,11,270-->
 
 Jak Python wyszukuje atrybuty?
 ?
 Kolejność: instancja → klasa → klasy bazowe zgodnie z MRO.
-<!--SR:!2025-12-07,1,210-->
+<!--SR:!2025-12-12,3,210-->
 
 Co to jest shadowing atrybutu?
 ?
 Nadpisanie atrybutu klasowego przez stworzenie atrybutu instancji o tej samej nazwie.
-<!--SR:!2025-12-09,3,250-->
+<!--SR:!2025-12-21,12,270-->
 
 ---
 

@@ -66,5 +66,5 @@ Do oznaczenia zmiennej, która nie powinna być nadpisywana, używamy typu Final
 Do czego użyjemy typu Final w adnotacjach typów?
 ?
 Final służy do oznaczenia zmiennych, stałych konfiguracyjnych i atrybutów klas, które nie powinny być nadpisywane. Jest używane do wartości takich jak klucze API, numery wersji, limity i inne stałe, które powinny pozostać niezmienione przez cały czas życia programu.
-<!--SR:!2025-12-07,2,230-->
+<!--SR:!2025-12-15,7,250-->
 

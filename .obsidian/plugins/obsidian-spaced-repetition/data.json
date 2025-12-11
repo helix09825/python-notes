@@ -27,7 +27,7 @@
     "noteFoldersToIgnore": [
       "**/*.excalidraw.md"
     ],
-    "openRandomNote": false,
+    "openRandomNote": true,
     "autoNextNote": false,
     "disableFileMenuReviewOptions": false,
     "maxNDaysNotesReviewQueue": 365,

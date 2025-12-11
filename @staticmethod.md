@@ -141,21 +141,24 @@ Staticmethod istnieje **wyłącznie** po to, żeby powiedzieć:
 
 ## 🗂 Fiszki (SRS) #flashcards 
 
-Czego nie dostaje metoda oznaczona @staticmethod?  
-?  
+Czego nie dostaje metoda oznaczona @staticmethod?
+?
 Nie dostaje żadnego ukrytego argumentu — ani self, ani cls.
+<!--SR:!2025-12-12,4,270-->
 
 ---
 
-Kiedy używamy @staticmethod zamiast zwykłej funkcji w module?  
-?  
+Kiedy używamy @staticmethod zamiast zwykłej funkcji w module?
+?
 Gdy funkcja logicznie należy do klasy, ale nie korzysta z jej stanu — trzymamy ją tam dla porządku.
+<!--SR:!2025-12-12,4,270-->
 
 ---
 
-Jaka jest największa różnica między @staticmethod a @classmethod?  
-?  
+Jaka jest największa różnica między @staticmethod a @classmethod?
+?
 @classmethod dostaje cls i działa na klasie; @staticmethod nie dostaje nic i działa jak zwykła funkcja.
+<!--SR:!2025-12-12,4,270-->
 
 ---
 

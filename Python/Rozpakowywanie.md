@@ -195,7 +195,7 @@ Zbiera „resztę” elementów do listy.
 Jaki typ danych zawsze otrzymuje zmienna z gwiazdką?
 ?
 Listę.
-<!--SR:!2025-12-07,2,230-->
+<!--SR:!2025-12-15,7,250-->
 
 Co dostaje *var, jeśli nie ma żadnych nadwyżkowych elementów?
 ?
@@ -205,7 +205,7 @@ Pustą listę `[]`.
 Co się stanie, jeśli elementów jest za mało do przydzielenia wszystkim zmiennym?
 ?
 Python zgłosi `ValueError`.
-<!--SR:!2025-12-08,3,210-->
+<!--SR:!2025-12-14,6,210-->
 
 Dlaczego Python używa listy dla *var zamiast krotki?
 ?

@@ -1,4 +1,4 @@
-# {{title}}
+# __future__
 
 aliases: []  
 tags: [theory, cs, programming]  
@@ -73,7 +73,7 @@ graph: false
 
 ## 📌 Kontrast (X vs Y)
 
-| Cecha | {{title}} | Koncepcja przeciwna |
+| Cecha | __future__ | Koncepcja przeciwna |
 | ----- | --------- | ------------------- |
 |       |           |                     |
 |       |           |                     |

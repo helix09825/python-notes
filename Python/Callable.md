@@ -72,5 +72,5 @@ Do opisywania funkcji używamy typu Callable.
 Do czego użyjemy typu Callable w adnotacjach typów?
 ?
 Callable służy do określania jakie argumenty funkcja przyjmuje i jaki typ zwraca, dzięki czemu możemy typować funkcje przekazywane jako argumenty.
-<!--SR:!2025-12-07,1,190-->
+<!--SR:!2025-12-15,5,210-->
 

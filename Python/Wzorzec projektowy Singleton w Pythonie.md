@@ -157,28 +157,28 @@ W rzeczywistości obiekt powstaje tylko raz — a każda kolejna próba jego utw
 Co to jest wzorzec Singleton?
 ?
 To wzorzec projektowy, który gwarantuje, że klasa ma **tylko jedną instancję**, a każdy dostęp do niej zwraca **ten sam obiekt**.
-<!--SR:!2025-12-08,3,210-->
+<!--SR:!2025-12-18,10,230-->
 
 Dlaczego stosuje się Singleton?
 ?
 Aby zapewnić jedną wspólną instancję w całej aplikacji — jedno źródło prawdy dla elementów takich jak konfiguracja, logger, połączenie do bazy czy cache.
-<!--SR:!2025-12-09,7,268-->
+<!--SR:!2026-01-04,26,288-->
 
 Na czym polega działanie Singletona?
 ?
 Przy pierwszym tworzeniu instancji obiekt jest tworzony, a przy każdej kolejnej próbie tworzenia zwracana jest **referencja do pierwszego obiektu**, zamiast tworzyć nowy.
-<!--SR:!2025-12-08,3,248-->
+<!--SR:!2025-12-17,9,268-->
 
 Gdzie przechowywana jest jedyna instancja Singletona
 ?
 W **atrybucie klasowym** (np. `_instance` w Pythonie).
-<!--SR:!2025-12-08,3,232-->
+<!--SR:!2025-12-15,7,232-->
 
 Czemu w Singletonie nadpisuje się `__new__` zamiast `__init__`?
 ?
 `__new__` tworzy obiekt — więc tam mamy kontrolę, czy powstanie nowa instancja.
 `__init__` uruchamia się **po stworzeniu obiektu**, więc jest już za późno, by blokować mnożenie instancji.
-<!--SR:!2025-12-08,3,232-->
+<!--SR:!2025-12-18,10,252-->
 
 ---
 
