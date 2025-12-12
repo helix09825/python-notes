@@ -172,63 +172,73 @@ Obiekt może być jednocześnie iteratorem i iterowalny, jeśli `__iter__` zwrac
 
 ## 🗂 Fiszki (SRS) #flashcards 
 
-Czy lista jest iteratorem?  
-?  
+Czy lista jest iteratorem?
+?
 Lista jest iterowalna, ale nie jest iteratorem; iterator dostajemy dopiero przez iter(lista).
+<!--SR:!2025-12-14,3,250-->
 
 ---
 
-Czy mogę użyć iteratora wiele razy w pętli for?  
-?  
+Czy mogę użyć iteratora wiele razy w pętli for?
+?
 Nie, iterator zużywa się; po pierwszym przejściu jest wyczerpany.
+<!--SR:!2025-12-15,4,270-->
 
 ---
 
-Czy pętla for iteruje po kolekcji?  
-?  
+Czy pętla for iteruje po kolekcji?
+?
 Nie, pętla for zawsze działa na iteratorze stworzonym z kolekcji.
+<!--SR:!2025-12-12,1,230-->
 
 ---
 
-Czy obiekt iterowalny musi mieć metodę **next**?  
-?  
+Czy obiekt iterowalny musi mieć metodę **next**?
+?
 Nie, obiekt iterowalny musi mieć **iter**, **next** znajduje się w iteratorze.
+<!--SR:!2025-12-12,1,230-->
 
 ---
 
-Czy każdy obiekt z **next** jest iteratorem?  
-?  
+Czy każdy obiekt z **next** jest iteratorem?
+?
 Nie, prawdziwy iterator musi mieć zarówno **next** jak i **iter** zwracającą self.
+<!--SR:!2025-12-12,1,230-->
 
 ---
 
-Czy generator jest iteratorem?  
-?  
+Czy generator jest iteratorem?
+?
 Generator jest iteratorem i iterowalny, ponieważ iter(generator) zwraca jego samego.
+<!--SR:!2025-12-15,4,270-->
 
 ---
 
-Czy obiekt może być jednocześnie iteratorem i iterowalnym?  
-?  
+Czy obiekt może być jednocześnie iteratorem i iterowalnym?
+?
 Tak, jeśli **iter** zwraca self, ale wtedy można przejść po nim tylko raz.
+<!--SR:!2025-12-14,3,250-->
 
 ---
 
-Czy pętla for zawsze wymaga **iter**?  
-?  
+Czy pętla for zawsze wymaga **iter**?
+?
 Nie zawsze, jeśli obiekt nie ma **iter**, Python użyje **getitem** z indeksami aż do IndexError.
+<!--SR:!2025-12-12,1,230-->
 
 ---
 
-Czy iterowalne i iterator to to samo?  
-?  
+Czy iterowalne i iterator to to samo?
+?
 Nie, iterowalne tworzy nowy iterator, iterator zwraca kolejne elementy przez next.
+<!--SR:!2025-12-14,3,250-->
 
 ---
 
-Czy StopIteration oznacza, że kolekcja się skończyła?  
-?  
+Czy StopIteration oznacza, że kolekcja się skończyła?
+?
 Nie, StopIteration oznacza, że skończył się iterator, kolekcja może istnieć dalej i można stworzyć nowy iterator.
+<!--SR:!2025-12-12,1,230-->
 
 ---
 

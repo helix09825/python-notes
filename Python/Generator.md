@@ -227,75 +227,87 @@ Okej, więc moimi błędnymi założeniami było to, że przy użyciu pętli `fo
 
 ## 🗂 Fiszki (SRS) #flashcards 
 
-Czym generator różni się od zwykłej funkcji z `return`?  
-?  
+Czym generator różni się od zwykłej funkcji z `return`?
+?
 Zwykła funkcja z `return` zwraca wartość i kończy działanie, tracąc cały stan. Funkcja generatorowa z `yield` zwraca wartość, ale tylko pauzuje — zachowuje swój stan i wznawia działanie przy kolejnym `next` lub obrocie pętli `for`.
+<!--SR:!2025-12-12,1,250-->
 
 ---
 
-Czy generator tworzy osobny obiekt iteratora?  
-?  
+Czy generator tworzy osobny obiekt iteratora?
+?
 Nie. Obiekt generatora sam jest iteratorem i jednocześnie jest iterowalny — ma `__next__` i `__iter__`, a `iter(generator)` zwraca jego samego.
+<!--SR:!2025-12-12,1,250-->
 
 ---
 
-Co zrobi druga pętla `for` na już wyczerpanym generatorze?  
-?  
+Co zrobi druga pętla `for` na już wyczerpanym generatorze?
+?
 Druga pętla `for` nic nie wypisze, bo generator jest wyczerpany. Pętla `for` wewnętrznie łapie wyjątek `StopIteration` i po prostu kończy iterację, bez błędu na ekranie.
+<!--SR:!2025-12-14,3,270-->
 
 ---
 
-Czy pętla `for` może wyrzucić `StopIteration` na zewnątrz?  
-?  
+Czy pętla `for` może wyrzucić `StopIteration` na zewnątrz?
+?
 Nie. `StopIteration` rzuca sam generator (iterator) w `__next__`, a pętla `for` ten wyjątek łapie wewnętrznie i kończy działanie bez pokazywania błędu.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-Jak przejść drugi raz po tych samych danych z funkcji generatorowej?  
-?  
+Jak przejść drugi raz po tych samych danych z funkcji generatorowej?
+?
 Nie da się „zresetować” istniejącego generatora. Trzeba ponownie wywołać funkcję generatorową, aby otrzymać nowy obiekt generatora i dopiero po nim iterować.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-Jaka jest główna różnica w pamięci między list comprehension a generator comprehension?  
-?  
+Jaka jest główna różnica w pamięci między list comprehension a generator comprehension?
+?
 List comprehension tworzy od razu całą listę wszystkich wyników i trzyma je w pamięci. Generator comprehension tworzy wartości leniwie, tylko na żądanie podczas iteracji, więc nie trzyma wszystkich rezultatów naraz w pamięci.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-Kiedy obliczane są wartości w generatorze (np. w generator comprehension)?  
-?  
+Kiedy obliczane są wartości w generatorze (np. w generator comprehension)?
+?
 W generatorze wartości są obliczane leniwie — dopiero w momencie, gdy rzeczywiście po nie sięgamy (`next`, `for`, `list(g)`), a nie w chwili tworzenia generatora.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-Czy kod wewnątrz generatora wykona się, jeśli nigdy po nim nie ziterujemy?  
-?  
+Czy kod wewnątrz generatora wykona się, jeśli nigdy po nim nie ziterujemy?
+?
 Nie. Jeśli nie użyjemy `next`, `for`, `list(g)` ani innej formy iteracji, kod wewnątrz generatora (np. `expensive(x)`) w ogóle się nie wykona.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-Co dokładnie sygnalizuje wyjątek `StopIteration` w kontekście generatora?  
-?  
+Co dokładnie sygnalizuje wyjątek `StopIteration` w kontekście generatora?
+?
 `StopIteration` oznacza, że generator nie ma już żadnych wartości do zwrócenia. Generator jest wyczerpany i dalsza iteracja nie zwróci kolejnych elementów.
+<!--SR:!2025-12-14,3,270-->
 
 ---
 
-Czy można ponownie iterować po tym samym obiekcie generatora po jego wyczerpaniu?  
-?  
+Czy można ponownie iterować po tym samym obiekcie generatora po jego wyczerpaniu?
+?
 Nie. Po rzuceniu `StopIteration` generator jest wyczerpany i nie da się go użyć ponownie. Kolejne próby iteracji nic nie zwrócą — trzeba stworzyć nowy generator.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-Czy każde iterowalne w Pythonie jest generatorem?  
-?  
+Czy każde iterowalne w Pythonie jest generatorem?
+?
 Nie. Iterowalne to każdy obiekt, który potrafi zwrócić iterator (ma `__iter__`), np. lista, string, dict. Generator jest konkretnym rodzajem iteratora tworzonym przez funkcję generatorową lub generator comprehension.
+<!--SR:!2025-12-14,3,270-->
 
 ---
 
-Co robi `yield` w funkcji generatorowej na poziomie zachowania?  
-?  
+Co robi `yield` w funkcji generatorowej na poziomie zachowania?
+?
 `yield` zwraca wartość na zewnątrz i pauzuje wykonanie funkcji w tym miejscu, zachowując stan lokalnych zmiennych. Przy kolejnym `next` lub obrocie pętli `for` działanie wznawiane jest dokładnie od miejsca tuż za `yield`.
+<!--SR:!2025-12-12,1,250-->
 
 ---
 

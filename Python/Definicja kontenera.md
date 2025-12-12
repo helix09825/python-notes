@@ -139,63 +139,73 @@ Moim wcześniejszym błędnym wyobrażeniem na temat kontenerów było to, że m
 
 ## 🗂 Fiszki (SRS) #flashcards 
 
-**Co definiuje obiekt jako kontener w Pythonie?**  
-?  
+**Co definiuje obiekt jako kontener w Pythonie?**
+?
 Implementacja metody `__contains__`.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-**Czy kontener musi posiadać `__iter__`?**  
-?  
+**Czy kontener musi posiadać `__iter__`?**
+?
 Nie. Kontener wymaga tylko `__contains__`.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-**Czy każdy iterowalny obiekt jest kontenerem?**  
-?  
+**Czy każdy iterowalny obiekt jest kontenerem?**
+?
 Nie. Iterowalność nie oznacza posiadania `__contains__`.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-**Czy generator jest kontenerem?**  
-?  
+**Czy generator jest kontenerem?**
+?
 Nie. Jest iterowalny, ale nie wspiera `__contains__`.
+<!--SR:!2025-12-14,3,270-->
 
 ---
 
-**Czy `str` jest kontenerem?**  
-?  
+**Czy `str` jest kontenerem?**
+?
 Tak — posiada `__contains__` i `__iter__`.
+<!--SR:!2025-12-15,4,290-->
 
 ---
 
-**Jakie typy danych są kontenerami w Pythonie?**  
-?  
+**Jakie typy danych są kontenerami w Pythonie?**
+?
 list, tuple, str, set, dict.
+<!--SR:!2025-12-14,3,270-->
 
 ---
 
-**Co zrobi Python, gdy użyjesz `in`, ale obiekt nie ma `__contains__`?**  
-?  
+**Co zrobi Python, gdy użyjesz `in`, ale obiekt nie ma `__contains__`?**
+?
 Spróbuje iterować obiekt (`__iter__`) i porównywać elementy.
+<!--SR:!2025-12-14,3,270-->
 
 ---
 
-**Czy kontener musi mieć kolejność?**  
-?  
+**Czy kontener musi mieć kolejność?**
+?
 Nie. Kolejność jest cechą sekwencji, nie kontenera.
+<!--SR:!2025-12-12,1,250-->
 
 ---
 
-**Czym kontener różni się od sekwencji?**  
-?  
+**Czym kontener różni się od sekwencji?**
+?
 Sekwencja ma kolejność i indeksy; kontener nie musi ich mieć.
+<!--SR:!2025-12-12,1,250-->
 
 ---
 
-**Czy własna klasa może być kontenerem?**  
-?  
+**Czy własna klasa może być kontenerem?**
+?
 Tak — wystarczy zaimplementować `__contains__` (opcjonalnie także `__iter__`).
+<!--SR:!2025-12-15,4,290-->
 
 ---
 

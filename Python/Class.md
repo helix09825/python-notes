@@ -353,7 +353,7 @@ Inicjalizuje obiekt już utworzony przez `__new__`, ustawia atrybuty instancji.
 Jaka jest różnica między atrybutem klasowym a instancji?
 ?
 Atrybut klasowy jest wspólny dla wszystkich instancji; atrybut instancji należy tylko do konkretnego obiektu.
-<!--SR:!2025-12-11,2,250-->
+<!--SR:!2025-12-18,7,270-->
 
 Gdzie tworzymy atrybuty instancji?
 ?

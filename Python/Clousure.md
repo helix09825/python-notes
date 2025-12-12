@@ -186,7 +186,7 @@ pytanie
 Jak closure zachowuje zmienne po zakończeniu działania funkcji zewnętrznej?
 ?
 Przechowuje je w cell objects, które żyją dalej dzięki referencjom funkcji wewnętrznej.
-<!--SR:!2025-12-11,2,210-->
+<!--SR:!2025-12-15,4,210-->
 
 pytanie
 Jaki jest warunek powstania closure?

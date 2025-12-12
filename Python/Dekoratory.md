@@ -188,7 +188,7 @@ Tworzą warstwy — wykonywane są od góry do dołu, wywoływane od dołu do g�
 **Czy dekorator może mieć własne argumenty?
 ?
 Tak, wtedy tworzy „fabrykę dekoratorów” (funkcja zwracająca dekorator).**
-<!--SR:!2025-12-11,2,250-->
+<!--SR:!2025-12-12,1,230-->
 
 **Jaka jest przeciwna koncepcja do dekoratorów?
 ?

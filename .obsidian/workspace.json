@@ -8,29 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1fe4649fee1f0f72",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Generator.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Generator"
-            }
-          },
-          {
             "id": "ac1f10bca8ff727c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Python/Niestandarowe moduły.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Niestandarowe moduły"
+            }
+          },
+          {
+            "id": "89c1abdd817dd861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Moduły.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Moduły"
             }
           }
         ],
@@ -220,8 +222,13 @@
   },
   "active": "f61e2c12f9427629",
   "lastOpenFiles": [
-    "Python/Pytania rekrutacyjne/Prosty fibonaci generator.md",
     "Python/Generator.md",
+    "Python/Niestandarowe moduły.md",
+    "Python/Moduły.md",
+    "Pasted image 20251212074840.png",
+    "Python/Pytania rekrutacyjne/Czym jest iteracja w Pythonie.md",
+    "Python/Pytania rekrutacyjne/Czy `range` to iterator, czy generator.md",
+    "Python/Pytania rekrutacyjne/Prosty fibonaci generator.md",
     "Pasted image 20251211195422.png",
     "__iter__.md",
     "Python/Pytania rekrutacyjne/Co to jest obraz Dockera i Dockerfile.md",
@@ -251,16 +258,11 @@
     "Python/Dziedziczenie vs. Kompozycja.md",
     "Pasted image 20251204201315.png",
     "Python/Annotated.md",
-    "Python/TypeVar.md",
-    "Python/Union.md",
     "Untitled.canvas",
-    "Python/Funkcja jako argument.md",
     "Untitled",
-    "Python/functools.md",
     "Python/Pasted image 20251202193057.png",
     "Python/Glossary",
     "Python/Pasted image 20251201220606.png",
-    "Python/Pasted image 20251201113941.png",
     "Untitled 1.canvas",
     "Python",
     "templates"
