@@ -30,4 +30,4 @@ Za pomocą `from functools import wraps` `@wraps(func)`
 Co zrobi `from functools import wraps`
 ?
 Functools wraps zaktualizuje dekorator o atrybuty dekorowanej funkcji
-<!--SR:!2025-12-12,1,170--> 
+<!--SR:!2025-12-16,2,170--> 

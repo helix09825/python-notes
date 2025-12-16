@@ -66,5 +66,5 @@ Do ograniczania wartości do konkretnych literałów używamy typu Literal, któ
 Do czego użyjemy typu Literal w adnotacjach typów?
 ?
 Literal służy do ograniczania wartości parametrów do konkretnych, predefiniowanych literałów. Jest idealne do parametrów API, trybów działania, statusów i konfiguracji, gdzie chcemy mieć gwarancję, że wartość będzie jedną z dozwolonych opcji (np. mode: Literal["strict", "safe"]).
-<!--SR:!2025-12-14,9,250-->
+<!--SR:!2026-01-06,23,250-->
 

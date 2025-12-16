@@ -125,7 +125,7 @@ Oryginalna lista **zostaje nietknięta**, a wynik list comprehension to **nowy o
 **P:** Jaka jest składnia list comprehension?
 ?
 **O:** `[expression for item in iterable if condition]`
-<!--SR:!2025-12-15,10,270-->
+<!--SR:!2025-12-20,5,250-->
 
 ---
 

@@ -172,7 +172,7 @@ Przy pierwszym tworzeniu instancji obiekt jest tworzony, a przy każdej kolejnej
 Gdzie przechowywana jest jedyna instancja Singletona
 ?
 W **atrybucie klasowym** (np. `_instance` w Pythonie).
-<!--SR:!2025-12-15,7,232-->
+<!--SR:!2026-01-07,23,252-->
 
 Czemu w Singletonie nadpisuje się `__new__` zamiast `__init__`?
 ?

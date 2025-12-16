@@ -368,12 +368,12 @@ Przez `type(self).nazwa` lub nazwę klasy.
 Dlaczego mutowalne atrybuty klasowe są niebezpieczne?
 ?
 Bo wszystkie instancje współdzielą tę samą listę/dict/set i modyfikacje wpływają na wszystkie obiekty.
-<!--SR:!2025-12-15,7,250-->
+<!--SR:!2026-01-08,24,270-->
 
 Do czego służy dekorator `@property`?
 ?
 Tworzy getter, który pozwala odczytywać wartość jak zwykły atrybut, ale z logiką w tle.
-<!--SR:!2025-12-15,7,250-->
+<!--SR:!2026-01-10,26,270-->
 
 Do czego służy `@nazwa.setter`?
 ?
@@ -413,7 +413,7 @@ Nie — tylko zachowuje się jak funkcja, ale nadal jest instancją klasy.
 Co robi `__repr__`?
 ?
 Zwraca techniczny, jednoznaczny opis obiektu — używany do debugowania.
-<!--SR:!2025-12-14,4,210-->
+<!--SR:!2025-12-27,13,230-->
 
 Co robi `__str__`?
 ?
@@ -423,7 +423,7 @@ Zwraca czytelną, przyjazną dla użytkownika reprezentację obiektu.
 Jak Python wyszukuje atrybuty?
 ?
 Kolejność: instancja → klasa → klasy bazowe zgodnie z MRO.
-<!--SR:!2025-12-12,3,210-->
+<!--SR:!2025-12-20,5,210-->
 
 Co to jest shadowing atrybutu?
 ?

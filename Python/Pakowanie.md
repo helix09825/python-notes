@@ -197,7 +197,7 @@ W przypisaniu `*` zbiera resztę, a w wywołaniu funkcji `*` rozpakowuje element
 Co dokładnie pakuje `*args` w definicji funkcji?
 ?
 Pakuje wszystkie argumenty pozycyjne do jednej krotki (`tuple`).
-<!--SR:!2025-12-15,10,270-->
+<!--SR:!2026-01-11,27,270-->
 
 Co dokładnie pakuje `**kwargs` w definicji funkcji?
 ?

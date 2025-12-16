@@ -1,7 +1,7 @@
 ---
-sr-due: 2025-12-14
-sr-interval: 4
-sr-ease: 270
+sr-due: 2025-12-29
+sr-interval: 15
+sr-ease: 290
 ---
 
 aliases: []  
@@ -142,70 +142,70 @@ Moim wcześniejszym błędnym wyobrażeniem na temat kontenerów było to, że m
 **Co definiuje obiekt jako kontener w Pythonie?**
 ?
 Implementacja metody `__contains__`.
-<!--SR:!2025-12-15,4,290-->
+<!--SR:!2025-12-17,2,270-->
 
 ---
 
 **Czy kontener musi posiadać `__iter__`?**
 ?
 Nie. Kontener wymaga tylko `__contains__`.
-<!--SR:!2025-12-15,4,290-->
+<!--SR:!2025-12-30,15,310-->
 
 ---
 
 **Czy każdy iterowalny obiekt jest kontenerem?**
 ?
 Nie. Iterowalność nie oznacza posiadania `__contains__`.
-<!--SR:!2025-12-15,4,290-->
+<!--SR:!2026-01-01,17,310-->
 
 ---
 
 **Czy generator jest kontenerem?**
 ?
 Nie. Jest iterowalny, ale nie wspiera `__contains__`.
-<!--SR:!2025-12-14,3,270-->
+<!--SR:!2025-12-25,11,290-->
 
 ---
 
 **Czy `str` jest kontenerem?**
 ?
 Tak — posiada `__contains__` i `__iter__`.
-<!--SR:!2025-12-15,4,290-->
+<!--SR:!2025-12-27,12,290-->
 
 ---
 
 **Jakie typy danych są kontenerami w Pythonie?**
 ?
 list, tuple, str, set, dict.
-<!--SR:!2025-12-14,3,270-->
+<!--SR:!2025-12-26,12,290-->
 
 ---
 
 **Co zrobi Python, gdy użyjesz `in`, ale obiekt nie ma `__contains__`?**
 ?
 Spróbuje iterować obiekt (`__iter__`) i porównywać elementy.
-<!--SR:!2025-12-14,3,270-->
+<!--SR:!2025-12-16,2,250-->
 
 ---
 
 **Czy kontener musi mieć kolejność?**
 ?
 Nie. Kolejność jest cechą sekwencji, nie kontenera.
-<!--SR:!2025-12-12,1,250-->
+<!--SR:!2025-12-17,4,270-->
 
 ---
 
 **Czym kontener różni się od sekwencji?**
 ?
 Sekwencja ma kolejność i indeksy; kontener nie musi ich mieć.
-<!--SR:!2025-12-12,1,250-->
+<!--SR:!2025-12-16,2,230-->
 
 ---
 
 **Czy własna klasa może być kontenerem?**
 ?
 Tak — wystarczy zaimplementować `__contains__` (opcjonalnie także `__iter__`).
-<!--SR:!2025-12-15,4,290-->
+<!--SR:!2025-12-31,16,310-->
 
 ---
 

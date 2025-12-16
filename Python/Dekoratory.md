@@ -168,7 +168,7 @@ Funkcja opakowująca, która rozszerza działanie innej funkcji bez zmiany jej k
 **Co zwraca dekorator?
 ?
 Obiekt zastępujący oryginalną funkcję (najczęściej wrapper).**
-<!--SR:!2025-12-13,5,230-->
+<!--SR:!2025-12-16,3,210-->
 
 **Kiedy wykonuje się dekorator?
 ?
@@ -188,7 +188,7 @@ Tworzą warstwy — wykonywane są od góry do dołu, wywoływane od dołu do g�
 **Czy dekorator może mieć własne argumenty?
 ?
 Tak, wtedy tworzy „fabrykę dekoratorów” (funkcja zwracająca dekorator).**
-<!--SR:!2025-12-12,1,230-->
+<!--SR:!2025-12-17,3,230-->
 
 **Jaka jest przeciwna koncepcja do dekoratorów?
 ?

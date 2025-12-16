@@ -1,3 +1,9 @@
+---
+sr-due: 2025-12-16
+sr-interval: 2
+sr-ease: 247
+---
+
 
 aliases: []  
 tags: [theory, cs, programming]  
@@ -124,6 +130,18 @@ Python szuka modułów w kolejności:
 To mechanizm **module search path** (`sys.path`).
 
 > To świadczy, że rozumiesz podstawy importów.
+
+## ` if __name__ == "__main__"`
+
+```python
+print ("Always executed") 
+
+if __name__ == "__main__": 
+	print ("Executed when invoked directly") 
+else: 
+	print ("Executed when imported")
+```
+
 ## 🔧 Jak to działa?
 
 
@@ -186,6 +204,8 @@ Moduły w Pythonie wyobrażam sobie jako skrzynki z narzędziami stojące w wars
 - [[__init__file]]
 	
 - [[pip]]
+	
+- [__name__]
 
 ---
 
@@ -214,65 +234,86 @@ Możemy importować **całą skrzynkę**, wyciągnąć z niej **konkretne narzę
 
 ## 🗂 Fiszki (SRS) #flashcards 
 
-Czy moduł w Pythonie to zawsze plik `.py`?  
-?  
+Czy moduł w Pythonie to zawsze plik `.py`?
+?
 Nie, moduł może być też wbudowany lub ładowany dynamicznie, a nie tylko z pliku `.py`.
+<!--SR:!2025-12-18,3,228-->
 
-Czy `import time` ładuje moduł od nowa przy każdym imporcie?  
-?  
+Czy `import time` ładuje moduł od nowa przy każdym imporcie?
+?
 Nie, moduł jest ładowany raz i przechowywany w cache w `sys.modules`.
+<!--SR:!2025-12-16,2,230-->
 
-Czy `import` wykonuje kod znajdujący się na top-level modułu?  
-?  
+Czy `import` wykonuje kod znajdujący się na top-level modułu?
+?
 Tak, cały kod na najwyższym poziomie modułu wykonuje się przy pierwszym imporcie.
+<!--SR:!2025-12-16,3,250-->
 
-Czy `import time` pozwala wywołać `sleep()` bez prefiksu?  
-?  
+Czy `import time` pozwala wywołać `sleep()` bez prefiksu?
+?
 Nie, funkcje modułu są dostępne przez namespace, np. `time.sleep()`.
+<!--SR:!2025-12-16,3,250-->
 
-Czy `from time import sleep` dodaje `sleep` do namespace bieżącego pliku?  
-?  
+Czy `from time import sleep` dodaje `sleep` do namespace bieżącego pliku?
+?
 Tak, dlatego można wywołać `sleep()` bez użycia `time.`.
+<!--SR:!2025-12-16,3,250-->
 
-Czy alias w imporcie zmienia nazwę modułu globalnie?  
-?  
+Czy alias w imporcie zmienia nazwę modułu globalnie?
+?
 Nie, alias to tylko lokalna referencja w danym pliku.
+<!--SR:!2025-12-17,4,270-->
 
-Czy dwa pliki mogą korzystać z tego samego modułu bez jego ponownego ładowania?  
-?  
+Czy dwa pliki mogą korzystać z tego samego modułu bez jego ponownego ładowania?
+?
 Tak, oba pliki odwołują się do tego samego obiektu modułu w `sys.modules`.
+<!--SR:!2025-12-16,3,250-->
 
-Czy Python zawsze sprawdza bieżący katalog jako pierwszy przy imporcie?  
-?  
+Czy Python zawsze sprawdza bieżący katalog jako pierwszy przy imporcie?
+?
 Tak, dlatego lokalny plik może nadpisać moduł standardowej biblioteki.
+<!--SR:!2025-12-16,3,250-->
 
-Czy plik `time.py` w projekcie może przechwycić `import time`?  
-?  
+Czy plik `time.py` w projekcie może przechwycić `import time`?
+?
 Tak, jeśli znajduje się w bieżącym katalogu lub wcześniej na `sys.path`.
+<!--SR:!2025-12-20,5,248-->
 
-Czy `from module import *` importuje tylko funkcje?  
-?  
+Czy `from module import *` importuje tylko funkcje?
+?
 Nie, importuje wszystko zdefiniowane w `__all__` lub wszystkie publiczne nazwy.
+<!--SR:!2025-12-16,2,230-->
 
-Czy używanie `from module import *` jest dobrą praktyką w produkcyjnym kodzie?  
-?  
+Czy używanie `from module import *` jest dobrą praktyką w produkcyjnym kodzie?
+?
 Nie, ponieważ prowadzi do konfliktów nazw i utraty czytelności.
+<!--SR:!2025-12-16,3,250-->
 
-Czy `dir(module)` pokazuje tylko funkcje modułu?  
-?  
+Czy `dir(module)` pokazuje tylko funkcje modułu?
+?
 Nie, pokazuje wszystkie atrybuty modułu, w tym klasy i zmienne.
+<!--SR:!2025-12-17,3,248-->
 
-Czy `help(module)` korzysta z docstringów?  
-?  
+Czy `help(module)` korzysta z docstringów?
+?
 Tak, wyświetla dokumentację opartą głównie na docstringach.
+<!--SR:!2025-12-16,2,228-->
 
-Czy `pip install` działa niezależnie od `sys.path`?  
-?  
+Czy `pip install` działa niezależnie od `sys.path`?
+?
 Nie, paczki instalowane przez pip trafiają do lokalizacji, która znajduje się na `sys.path`.
+<!--SR:!2025-12-16,1,188-->
 
-Czy `sys.modules` ma wpływ na szybkość kolejnych importów?  
-?  
+Czy `sys.modules` ma wpływ na szybkość kolejnych importów?
+?
 Tak, ponieważ Python nie ładuje ponownie już zaimportowanych modułów.
+<!--SR:!2025-12-17,3,250-->
+
+Czym jest PYTHONPATH?
+?
+PYTHONPATH to zmienna środowiskowa, która dodaje własne katalogi do sys.path przy starcie Pythona, zanim sprawdzona zostanie standard library i site-packages.
+<!--SR:!2025-12-16,2,246-->
+
 
 ---
 
